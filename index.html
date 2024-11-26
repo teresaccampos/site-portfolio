@@ -5,85 +5,136 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Teresa Campos - Portfólio</title>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css" integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <header>
-        <div class="profile">
+    <div class="container">
+        <input type="checkbox" id="toggle-sidebar" class="toggle-sidebar">
+        <label for="toggle-sidebar" class="sidebar-button">
+            <i class="fa-solid fa-bars"></i>
+        </label>
+        <div class="sidebar">
+        <div class="img">
             <img src="https://media.licdn.com/dms/image/v2/D4D03AQFWIo21cOaWsw/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1726433577506?e=1738195200&v=beta&t=-IeEtBkSsye10rEaotjoooIY2eFfZX33h-tyil7a32A" alt="Profile Picture">
-            <h1>Teresa Campos</h1>
-            <h2>Estudante de Análise e Desenvolvimento de Sistemas</h2>
         </div>
-        <nav>
+        <div class="nav">
+            <h1>Teresa Campos</h1>
             <ul>
-                <li><a href="#sobre-mim">Sobre Mim</a></li>
-                <li><a href="#habilidades">Habilidades</a></li>
-                <li><a href="#experiencia">Experiência</a></li>
+                <li><a class="active" href="#sobre-mim">Sobre Mim</aclass></li>
+                <li><a href="#tecnologias">Tecnologias</a></li>
                 <li><a href="#educacao">Educação</a></li>
-                <li><a href="#idiomas">Idiomas</a></li>
                 <li><a href="#certificacoes">Certificações</a></li>
                 <li><a href="#voluntariado">Voluntariado</a></li>
             </ul>
-        </nav>
-    </header>
-
-    <section id="redes-sociais">
-        <div class="social-links">
-            <a href="https://linkedin.com/in/teresacamposdev/" target="_blank"><img src="linkedin-icon.png" alt="LinkedIn"></a>
-            <a href="https://github.com/teresaccampos" target="_blank"><img src="github-icon.png" alt="GitHub"></a>
-            <a href="mailto:teresacampos42@gmail.com"><img src="email-icon.png" alt="Email"></a>
         </div>
-    </section>
+        </div>
+    
+        <div class="content">
+        <section class="full-screen" id="sobre-mim">
+            <h1>Olá, bem vindo!</h1>
+            <p>Olá, bem vindo ao meu portifólio. Meu nome é Maurício Moreira Neto e neste site encontra-se algumas informações sobre o meu trabalho, minhas pesquisas, minha formação e meus interesses profissionais.</p>
+            <div class="icons">
+                <a href="https://linkedin.com/in/teresacamposdev/" target="_blank">
+                    <i class="fa-brands fa-linkedin-in"></i>
+                </a>
+                <a href="https://github.com/teresaccampos" target="_blank">
+                    <i class="fa-brands fa-github"></i>
+                </a>
+                <a href="mailto:teresacampos42@gmail.com">
+                    <i class="fa-solid fa-envelope"></i>
+                </a>
+            </div>
+        </section>
 
-    <section id="sobre-mim">
-        <h3>Sobre Mim</h3>
-        <p>Estudante de Análise e Desenvolvimento de Sistemas em busca de uma oportunidade de estágio para aplicar meus conhecimentos acadêmicos e desenvolver novas habilidades. Tenho capacidade criativa para resolver problemas de forma inovadora e colaboro na criação de interfaces eficientes, aproveitando minha experiência anterior em Design e Marketing. Sou ágil na adaptação a novos desafios e estou comprometida em entender a lógica de desenvolvimento e os objetivos de negócios dos projetos em que tenho a oportunidade de atuar.</p>
-    </section>
+        <hr class="separator">
+    
+        <section class="full-screen" id="tecnologias">
+            <h3>Tecnologias</h3>
+            <div>
+                <h2 class="title">Linguagens de programação e dados</h>
+                <ul>
+                    <li>
+                        <img src="./assets/html-5.png" alt="HTML 5">
+                    </li>
+                    <li>
+                        <img src="./assets/css3.png" alt="HTML 5">
+                    </li>
+                    <li>
+                        <img src="./assets/javascript.png" alt="HTML 5">
+                    </li>
+                    <li>
+                        <img src="./assets/python.png" alt="HTML 5">
+                    </li>
+                </ul>
+                <h2 class="title">Ferramentas de desenvolvimento</h2>
+                <ul>
+                    <li>
+                        <img src="./assets/vscode.png" alt="HTML 5">
+                    </li>
+                    <li>
+                        <img src="./assets/git.png" alt="HTML 5">
+                    </li>
+                    <li>
+                        <img src="./assets/nodejs.png" alt="HTML 5">
+                    </li>
+                    <li>
+                        <img src="./assets/figma.png" alt="HTML 5">
+                    </li>
+                </ul>
+            </div>
+        </section>
+      
+        <hr class="separator">
 
-    <section id="habilidades">
-        <h3>Habilidades</h3>
-        <ul>
-            <li>JavaScript | HTML | CSS | Java | Python | Git | Padrões de Design | Figma | Visual Studio | Metodologia ágil | Raciocínio Lógico | Comunicação efetiva | Pacote Office | Bom pensamento analítico para solução de problemas | Trabalho em Equipe | Autonomia</li>
-        </ul>
-    </section>
+        <section class="full-screen" id="educacao">
+            <h3>Educação</h3>
+            <div class="card">
+                <div class="title-card">Análise e Desenvolvimento de Sistemas</div>
+                <p class="conteudo-card">Universidade de Fortaleza<br>Fortaleza, CE<br>01/2024 - 06/2026<br>Em andamento.</p>
+            </div>
+           
+        </section>
 
-    <section id="experiencia">
-        <h3>Experiência</h3>
-        <h4>Social Media</h4>
-        <p>Yssa Marketing<br>Fortaleza, Brasil<br>03/2023 - 10/2023</p>
-        <ul>
-            <li>Responsável por planejar, criar e curar conteúdo visual e escrito que seja atraente, relevante e alinhado com a identidade da marca. Monitorar métricas como alcance, engajamento, crescimento de seguidores e conversões.</li>
-        </ul>
-    </section>
+        <hr class="separator">
 
-    <section id="educacao">
-        <h3>Educação</h3>
-        <h4>Análise e Desenvolvimento de Sistemas</h4>
-        <p>Universidade de Fortaleza<br>Fortaleza, CE<br>01/2024 - 06/2026<br>Em andamento.</p>
-    </section>
+        <section class="full-screen" id="certificacoes">
+            <h3>Licenças e Certificações</h3>
+            <div class="cards">
+                <div class="card">
+                    <div class="title-card">Programa Residência em TIC-20 Capacita Brasil/C Jovem (UECE / Atlântico Avanti):</div> 
+                    <p class="conteudo-card">Programa que tem como objetivo capacitar novos profissionais entrantes no mercado de trabalho para serem plenamente capazes de atuarem na área de Full Stack. (05/2024 - Em Andamento)</p>   
+                </div>
+                <div class="card">
+                    <div class="title-card">
+                        Trilha Digital | Santander Coders 2024 | Front-End (16H): Competências:
+                    </div>
+                    <p class="conteudo-card">HTML | CSS | JavaScript | Git | React.js | AngularJS</p>
+                </div>
+                <div class="card">
+                    <div class="title-card">
+                        JavaScript do básico ao avançado (c/ Node.js e projetos) (30h):
+                    </div>
+                    <p class="conteudo-card">Conhecimento avançado em JavaScript, incluindo lógica de programação, orientação a objetos, DOM, Express, Sequelize, Handlebars e desenvolvimento de aplicações web completas.</p>
+                </div>
+                <div class="card">
+                    <div class="title-card">Capacita Brasil:</div>
+                    <p class="conteudo-card">Inglês Básico com ênfase em TI (09/2024)</p>
+                </div>
+            </div>
+        </section>
 
-    <section id="idiomas">
-        <h3>Idiomas</h3>
-        <p>Inglês técnico avançado para leitura e escrita.</p>
-    </section>
+        <hr class="separator">
 
-    <section id="certificacoes">
-        <h3>Licenças e Certificações</h3>
-        <ul>
-            <li>Programa Residência em TIC-20 Capacita Brasil/C Jovem (UECE / Atlântico Avanti): Programa que tem como objetivo capacitar novos profissionais entrantes no mercado de trabalho para serem plenamente capazes de atuarem na área de Full Stack. (05/2024 - Em Andamento)</li>
-            <li>Trilha Digital | Santander Coders 2024 | Front-End (16H): Competências: HTML | CSS | JavaScript | Git | React.js | AngularJS</li>
-            <li>JavaScript do básico ao avançado (c/ Node.js e projetos) (30h): Conhecimento avançado em JavaScript, incluindo lógica de programação, orientação a objetos, DOM, Express, Sequelize, Handlebars e desenvolvimento de aplicações web completas.</li>
-            <li>Capacita Brasil: Inglês Básico com ênfase em TI (09/2024)</li>
-        </ul>
-    </section>
+        <section class="full-screen" id="voluntariado">
+            <h3>Voluntariado</h3>
+            <p>PyLadies (Fortaleza) (05/2024): Comunidade mundialmente engajada de mulheres desenvolvedoras com propósito de instigar mais mulheres a entrarem na área tecnológica. São oferecidos workshops, encontros, palestras, entre outros. Atuação como apoio de credenciamento.</p>
+        </section>
 
-    <section id="voluntariado">
-        <h3>Voluntariado</h3>
-        <p>PyLadies (Fortaleza) (05/2024): Comunidade mundialmente engajada de mulheres desenvolvedoras com propósito de instigar mais mulheres a entrarem na área tecnológica. São oferecidos workshops, encontros, palestras, entre outros. Atuação como apoio de credenciamento.</p>
-    </section>
-
-    <footer>
-        <p>&copy; 2024 Teresa Campos | Este site foi criado usando as tecnologias HTML5 e CSS3. </p>
-    </footer>
+        <div class="footer">
+            <p>&copy; 2024 Teresa Campos | Este site foi criado usando as tecnologias HTML5 e CSS3. </p>
+        </div>
+        </div>
+    </div>
 </body>
 </html>
