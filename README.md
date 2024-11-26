@@ -1,6 +1,6 @@
 # Teresa Campos - Portfólio
 
-Este é um projeto pessoal de portfólio online. O site é um reflexo das minhas habilidades em desenvolvimento web, apresentando informações sobre mim, as tecnologias que utilizo, minha formação acadêmica, certificações, e experiência de voluntariado.
+Este é um projeto de portfólio online para Programa Residência em TIC-20 Capacita Brasil/C Jovem (UECE / Atlântico Avanti). O site é um reflexo das minhas habilidades em desenvolvimento web, apresentando informações sobre mim, as tecnologias que utilizo, minha formação acadêmica, certificações, e experiência de voluntariado.
 
 ## Tecnologias Utilizadas
 
