@@ -167,17 +167,6 @@ html {
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
 }
 
-.separator {
-  display: flex;
-  border: none; 
-  height: 4px; 
-  background-color: #d99cbe; 
-  margin: 40px 0; 
-  width: 100%; 
-  max-width: 1200px; 
-  margin-left: auto; 
-  margin-right: auto;
-}
 
 .footer {
   background-color: #d99cbe;
